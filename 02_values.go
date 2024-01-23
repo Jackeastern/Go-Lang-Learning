@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-// getting eeror on main. Had to change to main_2 for some reason. Im guessing go is a global languege. // No
-// No main must be used only once in the main program file? // will seee late.
+// getting error on main. Had to change to main_2 for some reason. Im guessing go is a global language. // No
+// No main must be used only once in the main program file? // will see late.
 func main() {
 
 	fmt.Println("go" + "lang") // Strings can be concatenated
@@ -13,6 +13,6 @@ func main() {
 
 	fmt.Println(true && false) /// Comparison with bool (AND)
 	fmt.Println(true || false) // Comparisons with bool (OR)
-	fmt.Println(!true)         // Comaprisons with Bool (Not)
-	// main() // running main here to test. Nope main did not run im guessing it may need to be impored.
+	fmt.Println(!true)         // Comparisons with Bool (Not)
+	// main() // running main here to test. Nope main did not run im guessing it may need to be imported.
 }
