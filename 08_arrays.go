@@ -17,6 +17,11 @@ func main() {
 	b := [5]int{1, 2, 3, 4, 5} // One liner
 	fmt.Println("dcl:", b)
 
+	// How about arrays with strings?
+	string_array := [4]string{"I", "am", "string", "Array"}
+	fmt.Println("str1", string_array)
+	// Works.
+
 	var twoD [2][3]int // 2-D array.
 	for i := 0; i < 2; i++ {
 		for j := 0; j < 3; j++ {
