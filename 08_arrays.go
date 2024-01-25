@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("dcl:", b)
 
 	// How about arrays with strings?
-	string_array := [4]string{"I", "am", "string", "Array"}
+	string_array := [4]string{"I", "am", "string", "Array"} // Maybe a slice not an array?.
 	fmt.Println("str1", string_array)
 	// Works.
 
